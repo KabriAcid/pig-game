@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Pig Game Setup</title>
+</head>
+
+<body>
+    <section id="game-setup">
+        <h1>Welcome to the Pig Game</h1>
+        <form id="setup-form">
+            <div class="form-group">
+                <label for="player1-name">Player 1 Name:</label>
+                <input type="text" id="player1-name" placeholder="Enter Player 1 Name" required />
+            </div>
+            <div class="form-group">
+                <label for="player2-name">Player 2 Name:</label>
+                <input type="text" id="player2-name" placeholder="Enter Player 2 Name" required />
+            </div>
+            <div class="form-group">
+                <label for="score-limit">Score Limit:</label>
+                <input type="number" min="100" id="score-limit" placeholder="Enter Score Limit (e.g., 100)" required />
+            </div>
+            <button type="button" id="start-game">Start Game</button>
+        </form>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
