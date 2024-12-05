@@ -1,5 +1,8 @@
 # Pig Game
 
+## Inspiration
+Inspired by Jonas Schmedtmann.
+
 ## Description
 This is a version of the classic *Pig* game, where players roll a dice and accumulate points based on the rolls, but risk losing all accumulated points if they roll a 1. The game continues until one player reaches a specified score limit.
 
