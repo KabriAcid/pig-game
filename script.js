@@ -32,7 +32,7 @@ const holdSound = new Audio('sounds/hold-dice.mp3');
 const winSound = new Audio('sounds/celebration.mp3');
 
 diceSound.volume = 0.15;
-holdSound.volume = 0.1;
+holdSound.volume = 0.5;
 
 // --- Event: Start Game ---
 if (startGameButton) {

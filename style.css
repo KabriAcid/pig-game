@@ -14,9 +14,12 @@ html {
 body {
   font-family: 'Nunito', sans-serif;
   font-weight: 400;
+  width: 100rem;
+  margin: auto;
   color: #333;
   height: 100vh;
   background: linear-gradient(120deg, #a1c4fd, #c2e9fb);
+  background-repeat: no-repeat;
 }
 
 /* LAYOUT */
@@ -242,6 +245,7 @@ main {
 /* Styling the track container and tortoises */
 .track-container {
   padding: 10px;
+  width: 100rem;
 }
 .line {
   position: relative;
